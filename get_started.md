@@ -43,3 +43,8 @@ docker-machine rm $(docker-machine ls -q) # Delete all VMs and their disk images
 docker-machine scp docker-compose.yml myvm1:~     # Copy file to node's home dir
 docker-machine ssh myvm1 "docker stack deploy -c <file> <app>"   # Deploy an app
 ```
+
+### Link a local folder into docker
+```
+docker run -d -p 80:80 -v /my-files:/usr/local/apache2/htdocs web-server:1.1
+```
