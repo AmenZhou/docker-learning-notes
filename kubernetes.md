@@ -16,4 +16,5 @@ kubectl cluster-info
 
 ##### Export bash env
 `echo $(minikube docker-env)`
+
 `eval $(minikube docker-env)`
