@@ -2,8 +2,12 @@
 
 ```
 minikube version
-minikube start --vm-driver=xhyve
 minikube status
 kubectl cluster-info
-echo $(minikube docker-env)
 ```
+
+##### Start a VM
+`minikube start --vm-driver=xhyve`
+
+###### Export bash env
+`echo $(minikube docker-env)`
