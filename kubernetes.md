@@ -1,7 +1,7 @@
 ### Install Steps
-Install kubectl
-Install minicube
-Install VM xhyve
+* Install kubectl
+* Install minicube
+* Install VM xhyve
 
 ### Useful commands
 
